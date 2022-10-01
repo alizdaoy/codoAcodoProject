@@ -1,0 +1,21 @@
+
+body{
+    background-color: #263c41;
+}
+header{
+    background-color:#332222;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-principal-link-nav{
+    text-decoration: none;
+    padding:1em;
+    font-size: 2em;
+}
+.mainVanilla{
+    width: 100%;
+}
+
