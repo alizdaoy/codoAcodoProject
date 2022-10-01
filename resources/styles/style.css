@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "wow";
+    src: url('../Fonts/Warcraft-Yj2j.ttf');
+}
+body{
+    background-color: #263c41;
+    font-family: "wow";
+}
+header{
+    background-color:#332222;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+.header-principal-nav-link{
+    text-decoration: none;
+    font-size: 2em;
+    padding: 10px 20px;
+    transition: .2s;
+    text-align: center;
+    display: block;
+    
+}
+.mainVanilla{
+    width: 100%;
+}
