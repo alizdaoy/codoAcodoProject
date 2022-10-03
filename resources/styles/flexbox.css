@@ -1,8 +1,26 @@
 .header-principal .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .header-principal-nav{
     display: flex;
 }
+.footer-principal{
+    display: flex;
+    align-items: center;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-principal-logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-principal-forms{
+    display: flex;
+    justify-content: center;
+}
+
