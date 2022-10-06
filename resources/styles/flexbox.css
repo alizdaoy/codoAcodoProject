@@ -1,10 +1,35 @@
 .header-principal .container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-principal .container-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-footer .listado {
+    display: flex;
+}
+
+
+
+/*.header-principal .container{
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.header-principal-logo{
+    display: flex;
+}
+.logo-vanilla{
+    display: flex;
+    align-items: center;
 }
 .header-principal-nav{
     display: flex;
+    flex-direction: column;
 }
 .footer-principal{
     display: flex;
@@ -23,4 +48,4 @@
     display: flex;
     justify-content: center;
 }
-
+*/
