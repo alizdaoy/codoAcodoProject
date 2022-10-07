@@ -3,49 +3,25 @@
     flex-direction: column;
     align-items: center;
 }
+.container-sobre-intro{
+    display: flex;
+    flex-direction: column;
+    
+}
+.video-sobre .container-sobre-wow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-sobre-wow{
+    display: flex;
+}
 .footer-principal .container-footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .container-footer .listado {
     display: flex;
 }
-
-
-
-/*.header-principal .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.header-principal-logo{
-    display: flex;
-}
-.logo-vanilla{
-    display: flex;
-    align-items: center;
-}
-.header-principal-nav{
-    display: flex;
-    flex-direction: column;
-}
-.footer-principal{
-    display: flex;
-    align-items: center;
-}
-.container-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.footer-principal-logos{
-    display: flex;
-    justify-content: space-evenly;
-}
-.footer-principal-forms{
-    display: flex;
-    justify-content: center;
-}
-*/
