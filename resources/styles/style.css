@@ -15,6 +15,10 @@ body{
     background-color: black;
     font-family: "wow";
 }
+
+
+/* Sección Nav */
+
 header{
     background-color:#332222;
     box-shadow: inset 0 0 50px black;
@@ -43,8 +47,7 @@ header{
     max-width: 50vw;
     color: #cfab20;
     box-shadow: 0px 8px 13px 0px #000000;
-
-    border: solid .5px 0 0 .2px;
+    border-radius: 15px 15px 15px 15px;
     border-color: #160f0f;
     margin-bottom: 5vw;
     color: #fff;
@@ -58,10 +61,12 @@ text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18p
     width: 100vw;
     border-bottom: solid 4px #263c41;
 }
+
+
+/* Sección Main */
+
 .container-sobre-intro{
     padding-top: -10px;
-    
-    /* margin-bottom: 10px; */
 }
 
 .container-sobre-wow{
@@ -72,21 +77,13 @@ text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18p
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px -51px 52px 26px rgba(0,0,0,0.94) inset;
--webkit-box-shadow: 0px -51px 52px 26px rgba(0,0,0,0.94) inset;
--moz-box-shadow: 0px -51px 52px 26px rgba(0,0,0,0.94) inset;
+    -webkit-box-shadow: 0px -51px 52px 26px rgba(0,0,0,0.94) inset;
+    -moz-box-shadow: 0px -51px 52px 26px rgba(0,0,0,0.94) inset;
 }
 .personajes{
     max-width: 75vw;
     position: absolute;
     margin-top: 10vw;
-}
-.video-sobre-wow-encabezado{
-    font-family: "montserrat";
-    font-weight: bold;
-    font-size: 2rem;
-    color: antiquewhite;
-    position: relative;
-    top: 45vw;
 }
 .video-sobre-wow{
     width: 89vw;
@@ -95,14 +92,53 @@ text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18p
     color: #cc5129;
     text-shadow: 2.5px 2.5px 3px black;
     position: relative;
-    top: 45vw;
+    top: 52vw;
+    font-family: "montserrat";
 }
+
+
+/* Sección tarjetas */
+
+.container.tarjeta{
+    width: 100%;
+    cursor: default;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.tarjeta{
+    width: 40vw;
+    background-color: #263c41;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.imagen-tarjeta{
+    width: 40vw;
+    border-radius: 15px 15px 0 0;
+}
+.contenido-tarjeta{
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+
+/* Sección formularios */
+
+.seccion-formularios{
+    width: 50vw;
+}
+.formularios{
+    align-items: center;
+}
+
+/* Sección footer */
 
 .footer-principal{
     width: 100vw;
     background-color: #1b1212;
     border-top: solid 4px #263c41;
-    
 }
 .footer-principal-logo{
     max-width: 80px;
